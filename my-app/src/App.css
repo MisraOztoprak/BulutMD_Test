@@ -1,0 +1,36 @@
+.movie-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+
+}
+.series-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+
+}
+.search-bar-movies {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+.search-bar-series {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 20px;
+ } 
+  
+  input {
+    width: 30%;
+  }
+  
+  .select {
+    width: 30%;
+  }
+  
